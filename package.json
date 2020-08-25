@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "http-server -p 1000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/muyuu/web-worker-sandbox/issues"
   },
-  "homepage": "https://github.com/muyuu/web-worker-sandbox#readme"
+  "homepage": "https://github.com/muyuu/web-worker-sandbox#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  },
+  "dependencies": {}
 }
